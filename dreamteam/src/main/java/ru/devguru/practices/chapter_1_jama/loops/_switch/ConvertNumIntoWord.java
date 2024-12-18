@@ -12,7 +12,6 @@ public class ConvertNumIntoWord {
     public static void main(String[] args) {
 
         System.out.println(convertNumIntoWord(45));
-
     }
 
     public static String convertNumIntoWord(int num) {

@@ -9,17 +9,19 @@ public class IsDuplicate {
 
         int[] numbers = {7, 23, 13, 89, 2, 13, 23, 57, 93};
 
-        System.out.println("duplicate: " + isDuplicate(numbers));
+        System.out.println("дубликат: " + isDuplicate(numbers));
     }
 
-    //метод проверяет: имеется ли дубликаты в массиве
+    // метод проверяет: имеется ли дубликаты в массиве
     public static boolean isDuplicate(int[] arr) {
 
         boolean duplicate = false;
         for (int i = 0; i < arr.length; i++) {    // i =7; i = 23;
             for (int j = i + 1; j < arr.length; j++) { // j = 23; j = 13 -> 89-> 2-> 13-> 23 -> duplicate = true;
-                if (arr[i] == arr[j])
+                if (arr[i] == arr[j]) {
                     duplicate = true;
+                    break;
+                }
             }
         }
         return duplicate;

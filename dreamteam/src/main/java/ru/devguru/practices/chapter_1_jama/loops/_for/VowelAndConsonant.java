@@ -12,32 +12,63 @@ public class VowelAndConsonant {
         // согласные = б, в, г, д, ж,з,й,к,л,м,н,п,р,с,т,ф,х,ц,ч,ш,щ.
         String str = "мёд юмор";
 
-        countVowelAndConsonant(str);
+//        countVowelAndConsonant(str);
+
+        System.out.println("количество слов: " + countWords(str));
+        System.out.println("количество гласных:  " + countVowel(str));
+        System.out.println("количество согласных: " + countConsonants(str));
 
 
     }
 
-    // метод считает количество: слов, гласных и согласных
-    public static void countVowelAndConsonant(String text) {
+    // метод считает количество слов в тексте
+    public static int countWords(String text) {
 
-        boolean inWord = false;
+        int wordCount = 0;
+        boolean word = false;
+        int endOfLine = text.length() - 1;
+
+        for (int i = 0; i < text.length(); i++) {
+            if (Character.isLetter(text.charAt(i)) && i != endOfLine) {
+                word = true;
+            } else if (!Character.isLetter(text.charAt(i)) && word) {
+                wordCount++;
+                word = false;
+            } else if (Character.isLetter(text.charAt(i)) && i == endOfLine) {
+                wordCount++;
+            }
+        }
+        return wordCount;
+    }
+
+    // метод считает гласных слов в тексте
+    public static int countVowel(String text) {
+
         int vowelCount = 0;
-        int consonantCount = 0;
-        int countWord = 0;
         char[] vowel = {'а', 'у', 'о', 'ы', 'э', 'я', 'ю', 'ё', 'и', 'е'};
+
+        for (int i = 0; i < text.length(); i++) {
+            for (char c : vowel) {
+                if (text.charAt(i) == c) {
+                    vowelCount++;
+                }
+            }
+        }
+        return vowelCount;
+    }
+
+    // метод считает согласных слов в тексте
+    public static int countConsonants(String text) {
+
+        int consonantCount = 0;
         char[] consonant = {'б', 'в', 'г', 'д', 'ж', 'з', 'й', 'л', 'л', 'м', 'н', 'п', 'р', 'с', 'т', 'ф', 'х', 'ц', 'ч', 'ш', 'щ'};
         for (int i = 0; i < text.length(); i++) {
-            for (int ch = 0; ch < vowel.length; ch++) {
-                if (Character.isLetter(ch)) {
-                    inWord = true;             // здесь не получилось посчитать количество слов в тексте
-                    countWord++;
-                } else if (text.charAt(i) == vowel[ch]) {
-                    vowelCount++;
-                } else if (text.charAt(i) == consonant[ch]) {
+            for (char c : consonant) {
+                if (text.charAt(i) == c) {
                     consonantCount++;
                 }
             }
         }
-        System.out.print("количество слов: " + countWord + " количество гласных: " + vowelCount + " количество согласных: " + consonantCount);
+        return consonantCount;
     }
 }

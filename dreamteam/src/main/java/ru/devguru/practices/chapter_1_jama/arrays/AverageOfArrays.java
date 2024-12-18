@@ -12,7 +12,7 @@ public class AverageOfArrays {
         System.out.println("average of the numbers is:  " + average(array));
     }
 
-    // метод средне арифметическое
+    // метод  возвращает средне арифметическое
     public static double average(double[] arr) {
 
         double sum = 0;

@@ -9,7 +9,7 @@ package ru.devguru.practices.chapter_1_jama.loops._for;
 public class GeneratePassword {
     public static void main(String[] args) {
 
-        System.out.println("Password: "+ generateRandomPassword(12));
+        System.out.println("случайный пароль: "+ generateRandomPassword(12));
 
     }
 

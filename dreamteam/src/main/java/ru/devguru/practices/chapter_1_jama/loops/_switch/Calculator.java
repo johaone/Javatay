@@ -18,36 +18,41 @@ public class Calculator {
 
         System.out.println("Введите 1 число");
         int num1 = scanner.nextInt();
+
         System.out.println("Введите 2 число");
         int num2 = scanner.nextInt();
+
         System.out.println("Введите введите одну из перечисленных операций: +,-,*,/");
         String operation = scanner.next();
 
+        StringBuilder result = new StringBuilder();
+
         switch (operation) {
             case "+": {
-                System.out.println(num1 + num2);
+                result.append(num1 + num2);
                 break;
             }
             case "-": {
-                System.out.println(num1 - num2);
+                result.append(num1 - num2);
                 break;
             }
             case "*": {
-                System.out.println(num1 * num2);
+                result.append(num1 * num2);
                 break;
             }
             case "/": {
-                if (operation == "/" || num2 == 0) {
-                    System.out.println("Нельзя делить на 0");
+                if (num2 == 0) {
+                    result.append("Нельзя делить на 0");
                 } else {
-                    System.out.println(num1 / num2);
+                    result.append(num1 / num2);
                 }
                 break;
             }
             default: {
-                System.out.println("Недопустимая операция");
+                result.append("Недопустимая операция");
             }
         }
+        System.out.println(result);
     }
 }
 

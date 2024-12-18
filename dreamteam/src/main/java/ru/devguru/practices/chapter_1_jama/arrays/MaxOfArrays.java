@@ -7,7 +7,7 @@ public class MaxOfArrays {
     public static void main(String[] args) {
 
         int[] numbers = {11, 23, 35, 48, 5, 16, 7, 8, 99, 10};
-        System.out.println("max number: " + findMaxNumOfArrays(numbers));
+        System.out.println("максимальный элемент: " + findMaxNumOfArrays(numbers));
     }
 
     // находит максимальное число в массиве
