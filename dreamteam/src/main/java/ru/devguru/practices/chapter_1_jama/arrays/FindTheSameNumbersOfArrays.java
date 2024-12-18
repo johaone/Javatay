@@ -4,7 +4,7 @@ package ru.devguru.practices.chapter_1_jama.arrays;
  * Напишите функцию, которая принимает массив целых чисел и возвращает true,
  * если в массиве есть хотя бы два одинаковых элемента, и false в противном случае.
  */
-public class IsDuplicate {
+public class FindTheSameNumbersOfArrays {
     public static void main(String[] args) {
 
         int[] numbers = {7, 23, 13, 89, 2, 13, 23, 57, 93};

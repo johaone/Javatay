@@ -18,7 +18,7 @@ public class GeneratePassword {
         String lowercase = "abcdefghijklmnopqrstuvwxyz";
         String uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         if (length <= 0) {
-            throw new IllegalArgumentException("Length must be greater than 0");
+            System.out.println("Длина должна быть больше 0");
         }
 
         String symbols =  numbers + lowercase + uppercase;

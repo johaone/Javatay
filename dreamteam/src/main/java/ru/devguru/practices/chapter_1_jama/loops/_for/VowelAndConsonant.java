@@ -12,13 +12,7 @@ public class VowelAndConsonant {
         // согласные = б, в, г, д, ж,з,й,к,л,м,н,п,р,с,т,ф,х,ц,ч,ш,щ.
         String str = "мёд юмор";
 
-//        countVowelAndConsonant(str);
-
-        System.out.println("количество слов: " + countWords(str));
-        System.out.println("количество гласных:  " + countVowel(str));
-        System.out.println("количество согласных: " + countConsonants(str));
-
-
+        System.out.println("количество слов: " + countWords(str) + ", количество гласных: " + countVowel(str) + ", количество согласных: " + countConsonants(str));
     }
 
     // метод считает количество слов в тексте

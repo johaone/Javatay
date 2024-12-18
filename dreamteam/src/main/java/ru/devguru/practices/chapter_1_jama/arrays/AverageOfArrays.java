@@ -9,10 +9,12 @@ public class AverageOfArrays {
 
         double[] array = {3.7, 5.3, 7.8, 8.6, 11.9, 13.13, 23.32};
 
-        System.out.println("average of the numbers is:  " + average(array));
+        double result = average(array);
+
+        System.out.println("average of the numbers is:  " + result);
     }
 
-    // метод  возвращает средне арифметическое
+    // метод возвращает средне арифметическое
     public static double average(double[] arr) {
 
         double sum = 0;
