@@ -8,7 +8,7 @@ import java.util.Scanner;
  * (например, деление на ноль).
  * Результат выведите на консоль, используя StringBuilder для вывода выражения и результата.
  */
-public class Calculator {
+public class Calcul {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         calculator(scanner);
