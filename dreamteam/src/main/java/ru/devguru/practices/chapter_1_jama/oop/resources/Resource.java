@@ -25,7 +25,6 @@ public abstract class Resource {
 
     public abstract void displayDetails();
 
-
     @Override
     public String toString() {
         return "Resource{" +
