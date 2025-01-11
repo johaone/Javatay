@@ -1,4 +1,4 @@
-package main.java.ru.devguru.practices.chapter_1_jama.oop.resources;
+package ru.devguru.practices.chapter_1_jama.oop.resources;
 
 public final class WaterResource extends Resource {
 

@@ -1,9 +1,8 @@
-package main.java.ru.devguru.practices.chapter_1_jama.oop.subsystems;
+package ru.devguru.practices.chapter_1_jama.oop.subsystems;
 
-import main.java.ru.devguru.practices.chapter_1_jama.oop.resources.Resource;
+import ru.devguru.practices.chapter_1_jama.oop.resources.Resource;
 
 public class LifeSupportSystem extends SubSystem {
-
 
     public LifeSupportSystem() {
         super("Support system");
