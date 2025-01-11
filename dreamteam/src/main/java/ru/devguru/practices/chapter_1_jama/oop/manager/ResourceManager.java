@@ -1,9 +1,8 @@
-package main.java.ru.devguru.practices.chapter_1_jama.oop.manager;
-
-import main.java.ru.devguru.practices.chapter_1_jama.oop.resources.*;
-import main.java.ru.devguru.practices.chapter_1_jama.oop.subsystems.EngineSystem;
-import main.java.ru.devguru.practices.chapter_1_jama.oop.subsystems.LifeSupportSystem;
-import main.java.ru.devguru.practices.chapter_1_jama.oop.subsystems.SubSystem;
+package ru.devguru.practices.chapter_1_jama.oop.manager;
+import ru.devguru.practices.chapter_1_jama.oop.resources.*;
+import ru.devguru.practices.chapter_1_jama.oop.subsystems.EngineSystem;
+import ru.devguru.practices.chapter_1_jama.oop.subsystems.LifeSupportSystem;
+import ru.devguru.practices.chapter_1_jama.oop.subsystems.SubSystem;
 
 import java.util.ArrayList;
 import java.util.List;

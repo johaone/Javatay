@@ -1,7 +1,5 @@
 package ru.devguru.practices.chapter_1_jama.loops._switch;
 
-import java.util.Scanner;
-
 /**
  * Напишите программу, которая преобразует целое число (от 0 до 999) в его словесное представление.
  * Например, 123 -> "сто двадцать три".
