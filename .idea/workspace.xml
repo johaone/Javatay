@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17c9e293-5e95-42fd-b798-1da46ed73277" name="Changes" comment="Первая попытка Наз" />
+    <list default="true" id="17c9e293-5e95-42fd-b798-1da46ed73277" name="Changes" comment="Первая попытка Наз">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamteam/target/classes/ru/devguru/practices/chapter_1_naz/arrays/Duplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/dreamteam/target/classes/ru/devguru/practices/chapter_1_naz/arrays/Duplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamteam/target/classes/ru/devguru/practices/chapter_1_naz/arrays/MergeSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/dreamteam/target/classes/ru/devguru/practices/chapter_1_naz/arrays/MergeSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dreamteam/target/classes/ru/devguru/practices/chapter_1_naz/arrays/RandomPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/dreamteam/target/classes/ru/devguru/practices/chapter_1_naz/arrays/RandomPassword.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +290,9 @@
       <workItem from="1735996110011" duration="1321000" />
       <workItem from="1736343799444" duration="7010000" />
       <workItem from="1736448417714" duration="2734000" />
-      <workItem from="1736588601821" duration="3378000" />
+      <workItem from="1736588601821" duration="5623000" />
+      <workItem from="1738996887169" duration="600000" />
+      <workItem from="1738997591773" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="NAz">
       <option name="closed" value="true" />
@@ -311,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736595152462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Первая попытка Наз">
+      <option name="closed" value="true" />
+      <created>1736595228638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736595228639</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
